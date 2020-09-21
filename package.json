@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon"
+    "start": "node ./dist/app.js",
+    "dev": "nodemon",
+    "tsc": "tsc"
   },
   "keywords": [],
   "author": "",
